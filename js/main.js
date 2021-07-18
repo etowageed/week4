@@ -1,5 +1,6 @@
 const btN = document.getElementById("btn");
 const txtColor = document.getElementById("color-text");
+const paragraph = document.getElementsByTagName("p");
 const colors = [
   "#5AA9E6",
   "#7FC8F8",
@@ -18,9 +19,4 @@ btN.addEventListener("click", function () {
   document.body.style.backgroundColor = randomColors;
 
   txtColor.innerText = randomColors;
-
-if (randomColors = colours[6]) {
-txtColor.style.color = "white";
-};
-
 });
