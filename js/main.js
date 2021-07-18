@@ -18,4 +18,9 @@ btN.addEventListener("click", function () {
   document.body.style.backgroundColor = randomColors;
 
   txtColor.innerText = randomColors;
+
+if (randomColors = colours[6]) {
+txtColor.style.color = "white";
+};
+
 });
